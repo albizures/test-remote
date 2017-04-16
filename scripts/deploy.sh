@@ -5,7 +5,7 @@ if [ $TRAVIS_BRANCH == 'master' ] ; then
   cd build
   git init
       
-  git remote add deploy "deploy@pixore.albizures.com:/home/test/"
+  git remote add deploy "deploy@pixore.albizures.com:/home/deploy/test/"
   git config user.name "Travis CI"
   git config user.email "albizures3601@gmail.com"
   
